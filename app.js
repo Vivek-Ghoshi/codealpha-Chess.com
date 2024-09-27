@@ -11,7 +11,6 @@ const io = socket(server);
 const chess = new Chess()
 let players = {};
 let currentPlayer = 'w';
-n
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname , 'public')));
 app.use(express.json());
