@@ -11,10 +11,7 @@ const io = socket(server);
 const chess = new Chess()
 let players = {};
 let currentPlayer = 'w';
-<<<<<<< HEAD
-=======
 
->>>>>>> e4616a1ca525dde924025db5407e5f4496ea4c5a
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname , 'public')));
 app.use(express.json());
